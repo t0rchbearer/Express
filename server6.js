@@ -8,7 +8,7 @@ let honey={
     name:'wild honey',
     mrp:350.00,
 }
-app.get('/honey',function(req,res){
+app.get('/',function(req,res){
     res.json(honey)
     console.log("server is running");
 })
